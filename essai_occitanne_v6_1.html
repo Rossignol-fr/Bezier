@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+      <meta charset="UTF-8"/>
+	  <title > courbes SVG  </title>
+</head>
+<body>
+<style type="text/css">
+       text{font-family:Arial;
+			font-size:18px;
+			fill:black;
+			font-weight:bold;
+			text-anchor:middle;
+			}
+		svg text {display: none;}
+		svg g:hover text {display: block;}
+</style>
+<!-- balise du SVG indiquant les dimensions en pixels du dessin vectoriel -->
+<svg height="600" width="800" style="background-color:beige;">
+
+<rect x="200" y="100" width="400" height="400" 
+style="fill:none;stroke-width:1;stroke:black;" stroke-dasharray="4 4 1 4" />
+	
+<g><path stroke-width="8" stroke="#B81D0B" fill="#FCD61A"
+d="M426.153,273.846
+C 609.23,247.692 478.461,195.384 530.769,273.846 S583.076,247.692 530.769,326.153 S609.23,352.307 426.153,326.153
+C 452.307,509.23 504.615,378.461 426.153,430.769 S452.307,483.076 373.846,430.769 S347.692,509.23 373.846,326.153
+C 190.769,352.307 321.538,404.615 269.23,326.153 S216.923,352.307 269.23,273.846 S190.769,247.692 373.846,273.846
+C 347.692,90.769 295.384,221.538 373.846,169.23 S347.692,116.923 426.153,169.23 S452.307,90.769 426.153,273.846Z" />
+
+<text x="400" y="120" >Paramètres : 1, 5, 1, 7, 1, -2, 3</text></g>
+
+<g><path stroke-width="1" stroke="#B81D0B" fill="Coral"
+d="M388.0,312.0
+C 324.0,340.0 592.0,232.0 408.0,300.0 S224.0,232.0 408.0,300.0 S324.0,260.0 388.0,288.0
+C 360.0,224.0 468.0,492.0 400.0,308.0 S468.0,124.0 400.0,308.0 S440.0,224.0 412.0,288.0
+C 476.0,260.0 208.0,368.0 392.0,300.0 S576.0,368.0 392.0,300.0 S476.0,340.0 412.0,312.0
+C 440.0,376.0 332.0,108.0 400.0,292.0 S332.0,476.0 400.0,292.0 S360.0,376.0 388.0,312.0Z" />
+<text x="400" y="120" >Paramètres : -0.75, 0.5, 0, -4, -1.75, 11.5, 4.25</text></g>
+
+</svg>
+
+</body>
+</html>
